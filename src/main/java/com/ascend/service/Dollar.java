@@ -14,17 +14,17 @@ public class Dollar extends CurrencyExchange {
 	
 	@Override
 	public double getDollar() {
-		return exchangeCurrency(Currency.DOLLAR, Currency.DOLLAR);
+		return exchange(Currency.DOLLAR, Currency.DOLLAR);
 	}
 
 	@Override
 	public double getApple() {
-		return exchangeCurrency(Currency.DOLLAR, Currency.APPLE);
+		return exchange(Currency.DOLLAR, Currency.APPLE);
 	}
 
 	@Override
 	public double getBanana() {
-		return exchangeCurrency(Currency.DOLLAR, Currency.BANANA);
+		return exchange(Currency.DOLLAR, Currency.BANANA);
 	}
 
 }

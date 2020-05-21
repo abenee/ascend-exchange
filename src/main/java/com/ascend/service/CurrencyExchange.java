@@ -24,7 +24,7 @@ public abstract class CurrencyExchange {
 		}
 	}
 	
-	public double exchangeCurrency(Currency from, Currency to) {
+	public double exchange(Currency from, Currency to) {
 	    double totalAmount = amount * (to.rate / from.rate);
 	    System.out.println("Total amount : " + totalAmount);
 	    return totalAmount;
