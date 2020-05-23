@@ -20,15 +20,18 @@ public class Application implements CommandLineRunner {
 		System.out.println("/////// Start Program //////");
 		Dollar dollar = new Dollar(20);
 		dollar.getApple();            // output on screen: 100
+		dollar.getDollar();			  // output on screen: 20
 		dollar.getBanana();           // output on screen: 200 
 
-		Apple apple = new Apple(5);
-		apple.getDollar();            // output on screen: 1
-		apple.getBanana();            // output on screen: 10
+		Apple apple = new Apple(20);
+		apple.getApple();			  // output on screen: 20
+		apple.getDollar();            // output on screen: 4
+		apple.getBanana();            // output on screen: 40
 
-		Banana banana = new Banana(5);
-		banana.getDollar();           // output on screen: 0.50
-		banana.getApple();            // output on screen: 2.50
+		Banana banana = new Banana(20);
+		banana.getApple();            // output on screen: 10
+		banana.getDollar();           // output on screen: 2
+		banana.getBanana();			  // output on screen: 20
 		
 		Dollar dollar1 = new Dollar(0);
 		dollar1.getApple();            // (1)
